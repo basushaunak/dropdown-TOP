@@ -1,0 +1,46 @@
+/* Stylesheet for dropdown menu */
+
+#hamburger-menu{
+    border: 4px black solid;
+    max-width: fit-content;
+    display: none;
+}
+
+#burger:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.hamburger-menu__list{
+    all:unset;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.hamburger-menu__list > *{
+    border-block-end: 1px black solid;
+}
+
+.hamburger-menu__item{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hamburger-menu__item:last-child{
+    border-block-end:none;
+}
+
+.hamburger-menu__link{
+    all:unset;
+}
+
+.hamburger-menu__link:hover{
+    cursor: pointer;
+}
+
